@@ -1,0 +1,9 @@
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+
+.navbar i {
+    font-size: 1.5rem;
+}
