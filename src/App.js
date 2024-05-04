@@ -13,13 +13,6 @@ class App extends React.Component {
     alert: null,
   };
 
-  // async componentDidMount() {
-  //   this.setState({ loading: true });
-  //   const url = "https://api.github.com/users";
-  //   const res = await axios.get(url);
-  //   this.setState({ users: res.data, loading: false });
-  // }
-
   searchTextHandler = async (text) => {
     this.setState({ loading: true });
     const url = `https://api.github.com/search/users?q=${text}&client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`;
