@@ -1,7 +1,3 @@
-Here's a template for a README file for your GitHub profile search app project:
-
----
-
 # GitHub Profile Search App
 
 This is a simple web application built with React.js that allows users to search for GitHub profiles by username and view detailed profile information.
@@ -25,13 +21,12 @@ To run this project locally, follow these steps:
 
 1. Clone this repository to your local machine using:
    ```
-   git clone https://github.com/your-username/GitHub-Profile-Search-App-Using-React-JS.git
+   git clone https://github.com/amjadimdad00/GitLocator.git
    ```
-   Replace `your-username` with your GitHub username.
-
+   
 2. Navigate to the project directory:
    ```
-   cd github-profile-search-app
+   cd GitLocator
    ```
 
 3. Install the dependencies:
